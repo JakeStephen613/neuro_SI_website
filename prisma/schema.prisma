@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model UserSession {
+  id                 Int      @id @default(autoincrement())
+  name               String
+  position           String   
+  selected_difficulty Int
+  user_score         Int      
+  model_score        Int      
+  percent_difference Float    
+  created_at         DateTime @default(now())
+}

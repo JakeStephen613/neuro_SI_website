@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "k_hops": 1,
+    "source_concept": "g protein subunit",
+    "target_concept": "girk channel",
+    "question_and_explanation": "<Question>\n[A research team is investigating the effects of a novel synthetic agonist, \"Compound X,\" on neuronal excitability in hippocampal CA1 pyramidal neurons. They observe that Compound X binding to a specific G protein-coupled receptor (GPCR) located on these neurons results in a significant and sustained hyperpolarization of the membrane potential. Further investigation reveals that this hyperpolarization is accompanied by an increased potassium ion (K+) conductance, which is blocked by the selective GIRK channel antagonist, tertiapin.]\n</Question>\n<Options>\nA. Compound X likely activates a GPCR coupled to Gαq, leading to increased intracellular calcium levels and subsequent GIRK channel activation.\nB. Compound X likely activates a GPCR coupled to Gαs, leading to increased cAMP levels and direct phosphorylation of the GIRK channel.\nC. Compound X likely activates a GPCR coupled to Gαi/o, leading to dissociation of Gβγ subunits, which directly bind to and open the GIRK channel.\nD. Compound X likely activates a GPCR coupled to Gα12/13, leading to activation of Rho GTPases and downstream effects on actin polymerization, indirectly affecting GIRK channel activity.\n</Options>\n\n<Explanation>\n... (trimmed for brevity) ...\n</Explanation>\n<Answer>:\nC\n</Answer>",
+    "correctness_Mistral-Nemo-12B-Instruct": "yes",
+    "correctness_Qwen3-14B": "yes",
+    "correctness_Qwen3-32B": "yes"
+  },
+  {
+    "id": 1,
+    "k_hops": 1,
+    "source_concept": "reciprocal inhibitory synapses",
+    "target_concept": "interneurons",
+    "question_and_explanation": "<Question>\n[Consider a rhythmic motor circuit controlling alternating flexor and extensor muscle activity...]\n</Question>\n<Options>\nA. The CMs likely receive excitatory input...\nB. The CMs are likely principal neurons...\nC. The CMs likely form reciprocal inhibitory connections...\nD. The CMs are likely sensory neurons...\n</Options>\n\n<Explanation>\n... (trimmed for brevity) ...\n</Explanation>\n<Answer>:\nC\n</Answer>",
+    "correctness_Mistral-Nemo-12B-Instruct": "yes",
+    "correctness_Qwen3-14B": "yes",
+    "correctness_Qwen3-32B": "yes"
+  }
+]
+
